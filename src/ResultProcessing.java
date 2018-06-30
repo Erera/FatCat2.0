@@ -47,7 +47,7 @@ public class ResultProcessing extends JFrame {
         }
         if (result == 1) {
             textArea.append("Your cat is overweight. \n " +
-                    "You should give more attraction to the diet of your cat. Here are some recommendations:\n" +
+                    "You should give more attention to the diet of your cat. Here are some recommendations:\n" +
                     "\n- buy diet cat food and feed your cat according to the instructions written on the package;\n" +
                     "\n- if you feed your cat with natural food, it's recommended to give your cat " + String.format("%.2f",weight*45/2)+
                     " grams of meat per day and " + String.format("%.2f",weight*45/2) + " grams of fermented milk products. Also add 10-15 grams of vegetables per day;\n" +
