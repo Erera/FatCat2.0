@@ -61,9 +61,11 @@ public class CatWeightUI extends JFrame {
                         error.setVisible(true);
                         return;}
 
-                    Cat kitty = new Cat((catSex.getSelectedIndex()), catSize.getSelectedIndex(), Double.parseDouble(catWeightField.getText()));
+                    Cat kitty = new Cat((catSex.getSelectedIndex()), catSize.getSelectedIndex(),
+                            Double.parseDouble(catWeightField.getText()));
 
-                    ResultProcessing resultOutput = new ResultProcessing(kitty.weightResult(),Double.parseDouble(catWeightField.getText()));
+                    ResultProcessing resultOutput = new ResultProcessing(kitty.weightResult(),
+                            Double.parseDouble(catWeightField.getText()));
                     resultOutput.setVisible(true);
                 }
             }
