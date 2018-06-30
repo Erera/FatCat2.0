@@ -17,8 +17,7 @@ public class Cat {
 
 
     public double idealMinWeightCalculate(){
-        //double idealMinWeight = 2.5 + this.sex + this.size;
-        return 2.5 + this.sex*0.9 + this.size*1.1;
+       return 2.5 + this.sex*0.9 + this.size*1.1;
     }
 
     public int weightResult(){
